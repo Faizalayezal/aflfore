@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="1dp"
+    android:background="@color/grey13"
+    android:layout_height="@dimen/_300sdp">
+
+    <FrameLayout
+        android:id="@+id/groupvideocallperson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:elevation="@dimen/_6sdp"
+        tools:text="Danielshxsh"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingVertical="@dimen/_4sdp"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:textColor="@color/btnsuper"
+        android:background="@drawable/video_circle"
+        android:textSize="@dimen/_13ssp"
+        android:singleLine="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

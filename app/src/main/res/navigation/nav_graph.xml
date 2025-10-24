@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/newDiscoverFragment">
+
+    <fragment
+        android:id="@+id/newDiscoverFragment"
+        android:name="com.foreverinlove.screen.fragment.NewDiscoverFragment"
+        android:label="fragment_new_discover"
+        tools:layout="@layout/fragment_new_discover" />
+    <fragment
+        android:id="@+id/likesAndViewsFragment"
+        android:name="com.foreverinlove.screen.fragment.LikesAndViewsFragment"
+        android:label="fragment_likes_and_views"
+        tools:layout="@layout/fragment_likes_and_views" />
+
+    <fragment
+        android:label="group_board"
+        tools:layout="@layout/fragment_group_listing"
+        android:id="@+id/groupBoardFragment"
+        android:name="com.foreverinlove.screen.fragment.GroupListingFragment"
+        />
+    <fragment
+        android:id="@+id/newConverationFragment"
+        android:name="com.foreverinlove.screen.fragment.NewConverationFragment"
+        android:label="fragment_new_converation"
+        tools:layout="@layout/fragment_new_converation" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.foreverinlove.screen.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

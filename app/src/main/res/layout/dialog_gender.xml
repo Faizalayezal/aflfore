@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/black"
+            android:text="@string/select_your_gender"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@color/lightgray"/>
+
+        <TextView
+            android:id="@+id/txtMale"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/gendered"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/select_gender"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="Male"
+            android:textSize="@dimen/_10ssp" />
+        <TextView
+            android:id="@+id/txtFemale"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/gendered"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/select_gender"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="Female"
+            android:textSize="@dimen/_10ssp" />
+        <TextView
+            android:id="@+id/txtTransgender"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/gendered"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/select_gender"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="Transgender"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:id="@+id/txtSexual"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/gendered"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/select_gender"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="Transexual"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:id="@+id/txtNonbinary"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/gendered"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/select_gender"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:text="Non-Binary"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="imgborder">#28AEA3</color>
+    <color name="groupboxtxt">#25A8A5</color>
+    <color name="black">#FF000000</color>
+    <color name="phaseColor1">#27A8A4</color>
+    <color name="phaseColor2">#FAF29446</color>
+    <color name="phaseColor3">#FA7822C1</color>
+    <color name="phaseColor4">#FAAD3090</color>
+    <color name="unmatchbg">#F4F4F4</color>
+    <color name="bonewhite">#F8F8F8</color>
+    <color name="lightblack">#1d1d1d</color>
+    <color name="chatday">#414141</color>
+    <color name="daycolor">#313131</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="chatwhite">#F0f0f0</color>
+    <color name="chatbg">#E5E5E5</color>
+
+    <color name="splashbg">#1C012A</color>
+    <color name="chatheaderbg">#2C0E55</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transparent2">#2C2C2C</color>
+    <color name="transparent3">#4A000000</color>
+    <color name="maincolor">#1B042B</color>
+    <color name="datapiker">#3A0D5A</color>
+    <color name="datapikerdark">#3A0D5A</color>
+    <color name="secondarycolor">#50137A</color>
+    <color name="blue">#111763</color>
+    <color name="darkblue">#161833</color>
+    <color name="darkgray">#565656</color>
+    <color name="lightgray">#BBBBBB</color>
+    <color name="lightblue">#0470A1</color>
+    <color name="gender">#ECECEC</color>
+    <color name="circle">#D7D7D7</color>
+    <color name="border">#c1c1c1</color>
+    <color name="darkgraytxt">#888888</color>
+    <color name="lightdarkgraytxt">#868686</color>
+    <color name="lastmsg">#898989</color>
+    <color name="txtgray">#727272</color>
+    <color name="jobcolor">#797979</color>
+    <color name="bottom">#1C716A</color>
+    <color name="chathint">#A4A4A4</color>
+    <color name="mnoyellow">#FAB344</color>
+    <color name="notitxt">#959595</color>
+
+    <color name="transparentblue">#7C1B042B</color>
+    <color name="green">#3DCE90</color>
+    <color name="online">#00D115</color>
+    <color name="red">#B80037</color>
+    <color name="semi_transparent">#00353535</color>
+    <color name="progress">#DFDFDF</color>
+    <color name="progresscircle">#9F5E96</color>
+    <color name="locationcolor">#8c8c8c</color>
+    <color name="chatsendrecive">#E2E2E2</color>
+    <color name="keeptext">#161833</color>
+    <color name="timecolor">#cdcdcd</color>
+    <color name="groupboard">#B3FDFDFD</color>
+    <color name="groupchatlist">#004B50</color>
+    <color name="sucessaplaytransperent">#FA2C2C2C</color>
+    <color name="transperentDailog">#002C2C2C</color>
+    <color name="requestransperent">#CC000000</color>
+    <color name="grey13">#40030303</color>
+    <color name="likebtn">#44053B</color>
+    <color name="hintcolor">#383838</color>
+    <color name="planbg">#f1f1f1</color>
+    <color name="btnsuper">#2C0E55</color>
+    <color name="grey14">#BA929398</color>
+
+    <color name="logout">#FDFDFD</color>
+    <color name="orange">#FF5722</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="superlike">#331E83</color>
+
+    <color name="carddeveloper">#14808080</color>
+    <color name="c515151cC5C5C5">#C5C5C5</color>
+
+
+    <color name="quit">#1C716A</color>
+    <color name="cancel">#CCCCCC</color>
+    <color name="progress_color">#D2D2D2</color>
+    <color name="grey4">#60DCDCDC</color>
+    <color name="cA6030303c707070">#707070</color>
+
+    <color name="savtranspert">#00707070</color>
+    <color name="cBFC1C1C1cBF676767">#BFC1C1C1</color>
+    <color name="recivecolor">#4753C1B8</color>
+    <color name="sendcolor2">#E6200531</color>
+    <color name="bgvd">#0000FF</color>
+
+    <color name="heightbg">#CC1C716A</color>
+    <color name="qabg">#220134</color>
+    <color name="phas1">#FA27ABA6</color>
+    <color name="darkphas1">#D927ABA6</color>
+    <color name="phas2">#FAF29446</color>
+    <color name="darkphas2">#D9F29446</color>
+    <color name="phas3">#FA7822C1</color>
+    <color name="darkphas3">#D97822C1</color>
+    <color name="phas4">#FAAD3090</color>
+    <color name="darkphas4">#D9AD3090</color>
+
+    <color name="c515151cffffff">#515151</color>
+    <color name="line">#1F000000</color>
+    <color name="gray">#595959</color>
+    <color name="settingqa">#05808080</color>
+
+
+
+
+
+
+
+</resources>

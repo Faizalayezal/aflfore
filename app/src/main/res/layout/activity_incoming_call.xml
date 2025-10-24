@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/maainlayout"
+    tools:context=".singlevideocall.IncomingCallActivity">
+
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <FrameLayout
+        android:id="@+id/localvideoviewcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/viewShade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5C000000"
+        android:visibility="gone" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgCurrUser"
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:elevation="@dimen/_5sdp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/_2sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_semibold"
+        tools:text="Sophia"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCurrUser" />
+
+    <TextView
+        android:id="@+id/txtCallStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Ringing"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/llCallActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imgToggleVideo"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/grey_circle2"
+            android:padding="@dimen/_13sdp"
+            android:src="@drawable/video_solid_white" />
+
+        <ImageView
+            android:id="@+id/imgEndVideoCall"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/red_circle"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/call_end_img" />
+
+        <ImageView
+            android:id="@+id/imgToggleAudio"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:background="@drawable/grey_circle2"
+            android:padding="@dimen/_13sdp"
+            android:src="@drawable/microphone_solid_white" />
+    </LinearLayout>
+
+
+    <!--CONNECTED DESIGN-->
+    <FrameLayout
+        android:id="@+id/remotevideoviewcontainer"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/noVideoShadeCurrentUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DC555555"
+            android:visibility="gone" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:elevation="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        android:id="@+id/floatingImg"
+        app:riv_border_color="@color/white"
+        app:riv_border_width="@dimen/_1sdp"
+        app:riv_corner_radius="@dimen/_7sdp" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llDetailActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey4"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/flipcemra"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/grey7_circle"
+            android:padding="@dimen/_13sdp"
+            android:src="@drawable/flip_camera_ios" />
+        <ImageView
+            android:id="@+id/offvideo"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/grey7_circle"
+            android:padding="@dimen/_13sdp"
+            android:src="@drawable/video_solid_white" />
+        <ImageView
+            android:id="@+id/offaudio"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/grey7_circle"
+            android:padding="@dimen/_13sdp"
+            android:src="@drawable/microphone_solid_white" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:id="@+id/offcall"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/red_circle"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/call_end_img" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

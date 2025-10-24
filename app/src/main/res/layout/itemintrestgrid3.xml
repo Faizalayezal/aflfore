@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/My_Widget.MaterialComponents.Chip.Choice3"
+    android:id="@+id/chip"
+    android:text="Cigars"
+    android:textSize="@dimen/_11ssp"
+    android:textColor="@color/gray"
+    android:layout_marginStart="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />

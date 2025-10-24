@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.activity.VideoCallActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:padding="@dimen/_13sdp"
+            android:src="@mipmap/back2"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carlotta von"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+
+    <View
+        android:id="@+id/viewShade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5C000000"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/llCallActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@mipmap/voice" />
+
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@mipmap/callend" />
+
+        <ImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@mipmap/specker" />
+    </LinearLayout>
+
+
+    <!--CONNECTED DESIGN-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/floatingImg"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:elevation="@dimen/_10sdp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:riv_border_color="@color/white"
+        app:riv_border_width="@dimen/_1sdp"
+        app:riv_corner_radius="@dimen/_7sdp" />
+   <!-- <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_rawRes="@raw/videcall"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:layout_constraintTop_toTopOf="@+id/floatingImg"
+        app:layout_constraintBottom_toBottomOf="@+id/floatingImg"
+        app:layout_constraintEnd_toEndOf="@+id/floatingImg"
+        app:layout_constraintStart_toStartOf="@+id/floatingImg"/>
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

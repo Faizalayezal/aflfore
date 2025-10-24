@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="standerd_70">2dp</dimen>
+    <dimen name="standerd_140">80dp</dimen>
+    <dimen name="standerd_50">60dp</dimen>
+    <dimen name="standerd_210">210dp</dimen>
+    <dimen name="standerd_0">-2dp</dimen>
+    <dimen name="standerd_min140">-80dp</dimen>
+    <dimen name="standerd_4">0dp</dimen>
+    <dimen name="minusstanderd_4">-85dp</dimen>
+    <dimen name="picture_column_width">90dp</dimen>
+    <dimen name="_9ssp">9sp</dimen>
+
+</resources>

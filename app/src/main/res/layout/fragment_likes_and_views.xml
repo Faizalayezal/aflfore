@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/chatbg"
+    tools:context=".screen.fragment.LikesAndViewsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatbg">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:paddingBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Likes &amp; Views "
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20sdp"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginVertical="@dimen/_50sdp"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:background="@drawable/likesbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhoLikesMe"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:backgroundTint="@color/likebtn"
+                app:cornerRadius="@dimen/_7sdp"
+                android:text="Who Likes Me"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginHorizontal="@dimen/_12sdp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhohasviewedme"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:backgroundTint="@color/likebtn"
+                app:cornerRadius="@dimen/_7sdp"
+                android:text="Who Has Viewed Me"
+                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginHorizontal="@dimen/_12sdp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSavedLikes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:backgroundTint="@color/likebtn"
+                app:cornerRadius="@dimen/_7sdp"
+                android:text="Saved Likes"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginHorizontal="@dimen/_12sdp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSavedSuperLikes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:backgroundTint="@color/likebtn"
+                app:cornerRadius="@dimen/_7sdp"
+                android:text="Saved Super Likes"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"                android:fontFamily="@font/poppins_medium"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginHorizontal="@dimen/_12sdp"/>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:backgroundTint="@color/likebtn"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Saved Back Burners"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_7sdp" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

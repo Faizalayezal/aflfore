@@ -1,0 +1,184 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ForeverInLove" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorPrimaryVariant">@color/secondarycolor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorAccent">@color/datapiker</item>
+
+    </style>
+
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="successfullDailog" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+    <style name="successfullDailog11" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="backgroundColor">@color/transparent</item>
+
+    </style>
+
+    <!--    <style name="successfullDailog" parent="Theme.AppCompat.Dialog">-->
+    <!--        <item name="bottomSheetStyle">@style/AppModalStyle</item>-->
+    <!--    </style>-->
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/top_rounded_white</item>
+    </style>
+
+    <style name="Theme.ForeverInLove.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ForeverInLove.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ForeverInLove.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.ForeverInLove.Fullscreen" parent="Theme.ForeverInLove">
+        <item name="android:actionBarStyle">@style/Widget.Theme.ForeverInLove.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.ForeverInLove.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="My_Widget.MaterialComponents.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state</item>
+        <item name="chipStrokeColor">@color/chip_background_state2</item>
+        <item name="chipStrokeWidth">0.5dp</item>
+        <item name="chipCornerRadius">@dimen/_10sdp</item>
+        <item name="chipStartPadding">@dimen/_13sdp</item>
+        <item name="chipEndPadding">@dimen/_13sdp</item>
+        <item name="chipMinHeight">@dimen/_23sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+
+    </style>
+
+
+    <style name="My_Widget.MaterialComponents.Chip.ChoiceBottom" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state</item>
+        <item name="chipStrokeColor">@color/chip_background_state2</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">@dimen/_20sdp</item>
+        <item name="chipStartPadding">@dimen/_10sdp</item>
+        <item name="chipEndPadding">@dimen/_10sdp</item>
+        <item name="chipMinHeight">@dimen/_30sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+
+    </style>
+
+
+    <style name="My_Widget.MaterialComponents.Chip.Choice2" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state_phase2</item>
+        <item name="chipStrokeColor">@color/chip_background_state2_phase2</item>
+        <item name="chipStrokeWidth">0.5dp</item>
+        <item name="chipCornerRadius">@dimen/_10sdp</item>
+        <item name="chipStartPadding">@dimen/_13sdp</item>
+        <item name="chipEndPadding">@dimen/_13sdp</item>
+        <item name="chipMinHeight">@dimen/_23sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+
+    </style>
+
+    <style name="My_Widget.MaterialComponents.Chip.Choice3" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state_phase3</item>
+        <item name="chipStrokeColor">@color/chip_background_state3_phase3</item>
+        <item name="chipStrokeWidth">0.5dp</item>
+        <item name="chipCornerRadius">@dimen/_10sdp</item>
+        <item name="chipStartPadding">@dimen/_13sdp</item>
+        <item name="chipEndPadding">@dimen/_13sdp</item>
+        <item name="chipMinHeight">@dimen/_23sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+
+    </style>
+
+    <style name="My_Widget.MaterialComponents.Chip.Choice4" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state_phase4</item>
+        <item name="chipStrokeColor">@color/chip_background_state4_phase4</item>
+        <item name="chipStrokeWidth">0.5dp</item>
+        <item name="chipCornerRadius">@dimen/_10sdp</item>
+        <item name="chipStartPadding">@dimen/_13sdp</item>
+        <item name="chipEndPadding">@dimen/_13sdp</item>
+        <item name="chipMinHeight">@dimen/_23sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+
+    </style>
+
+    <style name="My_Widget.MaterialComponents.Chip.ChoiceAddtioanl" parent="Widget.MaterialComponents.Chip.Choice">
+        <!-- Chip background color selector -->
+
+        <item name="closeIconTint" tools:ignore="DuplicateDefinition">@color/white</item>
+        <item name="chipBackgroundColor">@color/chip_background_state_aditional</item>
+        <item name="chipStrokeColor">@color/chip_background_state2_aditional</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">@dimen/_20sdp</item>
+        <item name="chipStartPadding">@dimen/_10sdp</item>
+        <item name="chipEndPadding">@dimen/_10sdp</item>
+        <item name="chipMinHeight">@dimen/_30sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+        <!-- Chip text color selector -->
+        <item name="android:textColor">@color/chip_background_state3</item>
+    </style>
+
+    <style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
+        <item name="onfidoColorActionMain">@color/maincolor</item>
+    </style>
+
+
+</resources>

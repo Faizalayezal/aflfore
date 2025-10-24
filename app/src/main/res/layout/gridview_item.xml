@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constretnt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--
+    android:layout_width="60sdp"
+-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imglable"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ddrugs" />
+
+
+        <TextSwitcher
+            android:id="@+id/txtfeedlable"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:gravity="center"
+            android:maxLines="1" />
+
+      <!--  <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/txtfeedlable"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:maxLines="1"
+            tools:text="skdfkhs"
+            android:gravity="center"
+            android:inputType="textCapWords"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/jobcolor"
+            android:textSize="@dimen/_9ssp"
+            app:texts="@array/text"
+            app:timeout="500" />-->
+
+        <TextView
+            android:id="@+id/txtlable"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:fontFamily="@font/poppins_medium"
+            tools:text="avc"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/jobcolor"
+            android:textSize="@dimen/_9ssp"/>
+            <!--app:texts="@array/text"/>-->
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

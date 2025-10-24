@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">ForEverUs In Love</string>
+    <string name="signin_desc1">By signing, you agree to ForeEverUs in Love \n<b>Privacy policy</b></string>
+    <string name="signin_desc2"> \nand <b>Terms &amp; Conditions</b></string>
+
+
+    <string name="google_search_api_key">AIzaSyBa0bj1AU-_R1woXIgqGXN0u3kQmppkP9A</string>
+
+
+    <string name="verify">Verify your \nphone number</string>
+    <string name="verifyemail">Verify your \nEmail address</string>
+    <string name="enter">Enter your OTP code here</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="Create">Create Your Profile</string>
+    <string name="term">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ligula convallis accumsan. Vivamus eget diam vel turpis egestas varius non sed est. Nam sit amet commodo sem. Curabitur dignissim lorem sit amet diam rutrum, eget dignissim dolor finibus. Nullam fringilla luctus neque faucibus iaculis. Etiam nec massa rutrum, venenatis diam eget, malesuada lectus. Proin non suscipit turpis, a dictum leo <font color='#0470A1'><b>Privacy Policy.</b></font></string>
+    <string name="unmatch">If you no longer want to continue communicating with someone, please do not ghost them. You will have the ability to unmatch with polite choices.</string>
+    <string name="fname">First Name</string>
+    <string name="groupboardtxt"><h1><b>Lorem</b></h1> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec lorem non ligula convallis accumsan. Vivamus eget diam vel turpis egestas varius non sed est ut.</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="unmatchbolcks">Sorry,Not a connection Best of luck</string>
+    <string name="unmatchbolcks2">Taking a break from \n meeting people</string>
+    <string name="date">Date of Birth</string>
+    <string name="height">Select Your Height</string>
+    <string name="intrest">Interested In</string>
+    <string name="status">Relationship Status</string>
+    <string name="look">Looking For</string>
+    <string name="education">Select Education</string>
+    <string name="job">Job/Career</string>
+    <string name="job2">Highest Level of Education</string>
+    <string name="language">Language</string>
+    <string name="location">Location</string>
+    <string name="vd">Video</string>
+    <string name="signinText">However You Identify\n Yourself…\nYou’re Always Welcome Here</string>
+    <string name="groupbuttomtxt"><h1><b>Mingle with others for \n possible</b></h1><font color='#FAB344'><b> connections</b></font></string>
+
+
+    <!--
+        bottom nav
+    -->
+
+    <!--<string name="home"><font color='#E5E5E5'>Home</font></string>
+    <string name="likes"><font color='#E5E5E5'>Likes &amp;\nViews</font></string>
+    <string name="social"><font color='#E5E5E5'>Social\nGroups</font></string>
+    <string name="msg"><font color='#E5E5E5'>Messages\n&amp; Chats</font></string>
+    <string name="pro"><font color='#E5E5E5'>Profile</font></string>-->
+
+    <string name="home">Home</string>
+    <string name="likes">Likes &amp; Views</string>
+    <string name="social">Social Groups</string>
+    <string name="msg">\u00A0Messages &amp; Chats</string>
+    <string name="pro">Profile</string>
+
+
+    <string name="MPD_action_done">done</string>
+    <string name="MPD_action_cancel">cancel</string>
+    <string name="MPD_male">Male</string>
+    <string name="MPD_female">Female</string>
+    <string name="MPD_empty_message">value can not be empty</string>
+    <string name="MPD_incorrect_message">please select correct value</string>
+    <string name="select_your_gender">Select Your Gender</string>
+    <string name="bio">Write Something About \n Yourself</string>
+    <string name="select_profile_pictures">Your profile pictures</string>
+    <string name="Selectthecity">Select the city</string>
+    <string name="locationdailog">Unlock this features with \n just a singal tap below.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="only_alfabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="title_activity_report_user">ReportUserActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="sub1"><font color='#FF000000'>Can Access</font> <font color='#1C716A'> All Filter</font> </string>
+    <string name="sub2"><font color='#1C716A'>Unlimited</font> <font color='#FF000000'> Likes &amp; Dislikes</font> </string>
+    <string name="sub3"><font color='#1C716A'>5</font> <font color='#FF000000'> Super Likes Per Day</font> </string>
+    <string name="sub4">In App Chat</string>
+    <string name="sub5">In App Live Video Chat</string>
+    <string name="sub6">Group Video Calls</string>
+    <string name="sub7"><font color='#1C716A'>who Likes</font> <font color='#FF000000'> Me</font></string>
+    <string name="sub8">Can See Who\'s Viewed me</string>
+    <string name="sub9">Send Private Request From Groups</string>
+    <string name="groups">Virtual Watering Holes</string>
+
+
+    <string name="psub11"><font color='#FF000000'>Can Access</font> <font color='#FF5722'> All Filters</font> </string>
+    <string name="psub2"><font color='#FF5722'>Unlimited </font> <font color='#FF000000'> Likes &amp; Dislikes</font> </string>
+    <string name="psub3"><font color='#FF000000'>0</font> <font color='#FF5722'> Super Like Per Day</font> </string>
+    <string name="psub4"><font color='#FF000000'>InApp</font> <font color='#FF5722'> Chat</font> </string>
+    <string name="psub5"><font color='#FF000000'>InApp</font> <font color='#FF5722'> Live</font><font color='#FF000000'> Video Chat</font> </string>
+    <string name="psub6"><font color='#FF000000'>Group</font> <font color='#FF5722'> Video Calls</font> </string>
+    <string name="psub7"><font color='#FF5722'>Who Likes</font> <font color='#FF000000'> Me</font> </string>
+    <string name="psub8">Can See Who\'s ViewedMe</string>
+    <string name="psub9"><font color='#FF5722'>Send Private Chat</font> <font color='#FF000000'> Request From Groups</font> </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="gruopboardtext">ForEverUs <font color='#FAB344'>In</font> Love \nVirtual Happy \nHours</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="editprobio">Tell Us Something.</string>
+    <string name="sub">Access to this feature is available exclusively through our premium plan. Kindly subscribe to enjoy its benefits.</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="exitdialog">Are you sure you want\nto quit?</string>
+    <string name="reset">Reset</string>
+    <string name="comapletd">Your Registration is \nComplete</string>
+    <string name="term2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et laoreet urna.</string>
+    <string name="welcomheretext">However You Identify Yourself… You’re Always Welcome Here.</string>
+    <string name="genderheretext">Please let us know if we’re missing alternative genders</string>
+    <string name="verifyDescription">In today\'s digital age,ensuring the security and integrity of online interaction is paramount for\nForeverUs In Love\nAs we launch our new site,we are committed to creating a safe and trustworthy environment for all our users providing a robust identity verification process.Thank you for being a part of our journey, and we look forward to creating a safe and engaging space together.  </string>
+
+
+    <string name="heading1">Is my information secure?</string>
+    <string name="heading2">How can I edit my profile?</string>
+    <string name="heading3">Can I search for specific criteria in a potential match?</string>
+    <string name="heading4">How do I communicate with other users?</string>
+    <string name="heading5">What are the membership options available?</string>
+    <string name="heading6">How do I report inappropriate behavior or content?</string>
+    <string name="heading7">What are the safety tips for online dating?</string>
+    <string name="heading8">How do I delete my account?</string>
+    <string name="heading9">How can I contact customer support?</string>
+
+    <string name="quest1">We take the security of your information seriously. We use industry-standard measures to protect your data and ensure that it is not accessed or used without authorization.</string>
+    <string name="quest2">You can edit your profile by logging into your account and clicking on the “Profile" %icon% you can update your photos,personal information, and preferences.</string>
+    <string name="quest3">Yes, you can use our search filters to specify criteria such as age, location, interests, and more to find potential matches that meet your preferences.</string>
+    <string name="quest4">To communicate with other users, you have a couple of options. If you\'ve matched with someone, simply click on "Send Message" to start chatting directly.Alternatively, you can navigate to the "Messages &amp; Chats" menu, then select the profile of the person you\'d like to message.Please remember to maintain respect and adhere to our community guidelines when engaging with others</string>
+    <string name="quest5">We offer both free and paid membership options. Our paid memberships may include additional features such as advanced search options, access to our Watering Hole, various methods of communicating and more.</string>
+    <string name="quest6">If you encounter any inappropriate behavior or content, you can report it by using our “Report &amp; Block” function. Our team will review the report and take appropriate action.</string>
+    <string name="quest7">We encourage all users to practice caution and use common sense when interacting with others online. Be mindful of sharing personal information and always meet in public places for in-person meetings.</string>
+    <string name="quest8">You can delete your account by going to the &quot;Account Settings&quot; section and following the instructions to deactivate or delete your profile.</string>
+    <string name="quest9">If you have any further questions or need assistance, you can contact our customer support team at support@foreverusinlove.com</string>
+
+
+    <string name="app_Id">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtNViwBqiVfmbcLzGNmxSIiaZMQQzMWw9dmPegKjnyUHalQ1xZmbwhpmyuwJ43uSVSVeCWsA0lDqPIZ/bOnKPMX2K1xvqq2WzqgGnHCoJ9qrw3EiUJojJvapPgtgfXnj+RSHuK3OVm2rgoWtQhSmAwQEJQDOVUXdqs7YfsMpzWhcEgtAKHcRIqUWGCX7QkP13f7kGZO88Q+rrXyRGj2/2wJw8C8gQ7uOFACryxyKDpDJxrk7qLBc1qbB6aq+EGMLWTHvU9tadKRn7Ji42sgsm1/AI0EoQIU373DVjKUiEyo2oaa1roEDNJKSkvsmhLreVvrf5AVgBlHqYJsAEsODGRwIDAQAB</string>
+
+    <string-array name="text">
+        <item> </item>
+    </string-array>
+</resources>

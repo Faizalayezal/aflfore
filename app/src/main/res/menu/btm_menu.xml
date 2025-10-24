@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/newDiscoverFragment"
+        android:icon="@drawable/home1"
+        android:menuCategory="secondary"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/likesAndViewsFragment"
+        android:icon="@drawable/likes"
+        android:menuCategory="secondary"
+        android:title="@string/likes" />
+    <item
+        android:id="@+id/groupBoardFragment"
+        android:icon="@drawable/goup"
+        android:menuCategory="secondary"
+        android:title="@string/social" />
+    <item
+        android:id="@+id/newConverationFragment"
+        android:icon="@drawable/mmessag"
+        android:menuCategory="secondary"
+        android:title="@string/msg"
+
+        />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/pro"
+        android:menuCategory="secondary"
+        android:title="@string/pro"
+
+        />
+</menu>

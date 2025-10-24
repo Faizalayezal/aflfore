@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="boxStrokeWidth">2dp</dimen>
+    <dimen name="boxStrokeWidthFocused">2dp</dimen>
+    <dimen name="TextInputEditTextTextSize">@dimen/_13ssp</dimen>
+    <dimen name="TextInputEditTextPaddingTop">@dimen/_22sdp</dimen>
+
+    <dimen name="filterImageListSize">@dimen/_50sdp</dimen>
+    <dimen name="radiusImage">@dimen/_15sdp</dimen>
+
+</resources>

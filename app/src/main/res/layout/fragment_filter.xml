@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nested"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bonewhite"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".screen.fragment.FilterFragment"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:elevation="@dimen/_12sdp"
+                android:orientation="vertical"
+                android:outlineProvider="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@mipmap/backimg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:text="Filters"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_20ssp" />
+
+                    <TextView
+                        android:id="@+id/resent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:text="Reset"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_19sdp"
+                            android:layout_marginEnd="@dimen/_19sdp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginVertical="@dimen/_20sdp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:gravity="center"
+                                android:text="Intrested in"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp" />
+
+                            <RadioGroup
+                                android:id="@+id/radiogroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginHorizontal="@dimen/_3sdp"
+                                android:layout_weight="3"
+                                android:background="@drawable/bglokinfor"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+
+                                <RadioButton
+                                    android:id="@+id/radiomale"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:background="@drawable/genderbgselector"
+                                    android:button="@android:color/transparent"
+                                    android:drawableStart="@drawable/maleicon"
+                                    android:paddingHorizontal="@dimen/_7sdp"
+                                    android:paddingStart="@dimen/_8sdp"
+                                    android:text="Male"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12sdp" />
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1" />
+
+                                <RadioButton
+                                    android:id="@+id/radiofemale"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginHorizontal="@dimen/_4sdp"
+                                    android:background="@drawable/genderbgselector"
+                                    android:button="@android:color/transparent"
+                                    android:drawableStart="@drawable/femaleicon"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="@dimen/_7sdp"
+                                    android:text="Female"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12sdp" />
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1" />
+
+                                <RadioButton
+                                    android:id="@+id/radioother"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    android:background="@drawable/genderbgselector"
+                                    android:button="@android:color/transparent"
+                                    android:drawableStart="@drawable/othericon"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="@dimen/_7sdp"
+                                    android:paddingStart="@dimen/_8sdp"
+                                    android:text="Other"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_12sdp" />
+
+                            </RadioGroup>
+
+
+                        </LinearLayout>
+            -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_19sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_19sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Distance"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.jaygoo.widget.RangeSeekBar
+                android:id="@+id/rsbDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rsb_indicator_background_color="@color/transparent"
+                app:rsb_indicator_drawable="@color/transparent"
+                app:rsb_indicator_height="@dimen/_13sdp"
+                app:rsb_indicator_show_mode="alwaysShow"
+                app:rsb_indicator_text_color="@color/black"
+                app:rsb_indicator_width="@dimen/_20sdp"
+                app:rsb_min_interval="17"
+                app:rsb_mode="range"
+                app:rsb_indicator_text_size="@dimen/_10ssp"
+                app:rsb_progress_color="@color/bottom"
+                app:rsb_progress_default_color="@color/progress"
+                app:rsb_progress_height="@dimen/_8sdp"
+                app:rsb_thumb_drawable="@drawable/seek_button_layered" />
+
+            <TextView
+                android:id="@+id/txtAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.jaygoo.widget.RangeSeekBar
+                android:id="@+id/rsbAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rsb_indicator_background_color="@color/transparent"
+                app:rsb_indicator_drawable="@color/transparent"
+                app:rsb_indicator_height="@dimen/_13sdp"
+                app:rsb_indicator_show_mode="alwaysShow"
+                app:rsb_indicator_text_color="@color/black"
+                app:rsb_indicator_width="@dimen/_20sdp"
+                app:rsb_min_interval="15"
+                app:rsb_mode="range"
+                app:rsb_indicator_text_size="@dimen/_10ssp"
+                app:rsb_progress_color="@color/bottom"
+                app:rsb_progress_default_color="@color/progress"
+                app:rsb_progress_height="@dimen/_8sdp"
+                app:rsb_thumb_drawable="@drawable/seek_button_layered" />
+
+            <TextView
+                android:id="@+id/txtHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Height"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+<!--
+            <com.jaygoo.widget.RangeSeekBar
+                android:id="@+id/rsbHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:rsb_indicator_background_color="@color/transparent"
+                app:rsb_indicator_drawable="@color/transparent"
+                app:rsb_indicator_height="@dimen/_13sdp"
+                app:rsb_indicator_show_mode="alwaysShow"
+                app:rsb_indicator_text_color="@color/black"
+                app:rsb_indicator_width="@dimen/_20sdp"
+                app:rsb_min_interval="15"
+                app:rsb_mode="range"
+                app:rsb_indicator_text_size="@dimen/_10ssp"
+                app:rsb_progress_color="@color/bottom"
+                app:rsb_progress_default_color="@color/progress"
+                app:rsb_progress_height="@dimen/_8sdp"
+                app:rsb_thumb_drawable="@drawable/seek_button_layered" />
+-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edFilterHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/signin_edit"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/transparent"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/poppins_regular"
+                    android:paddingVertical="@dimen/_7sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/heightchip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:backgroundTint="@color/datapiker"
+                        tools:text="Chip 1" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="@dimen/_25sdp"
+                        android:backgroundTint="@color/datapiker"
+                        tools:text="Chip 2" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <View
+                    android:layout_width="@dimen/_10ssp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:background="@color/black"
+                    android:layout_marginStart="@dimen/_55sdp"
+                    app:layout_constraintStart_toStartOf="@+id/heightchip"
+                    app:layout_constraintTop_toTopOf="@+id/heightchip"
+                    app:layout_constraintBottom_toBottomOf="@+id/heightchip"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <!--<EditText
+                android:id="@+id/edFilterHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signin_edit"
+                android:clickable="true"
+                android:drawableEnd="@drawable/backbtn"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/poppins"
+                android:hint="Choose"
+                android:maxLength="30"
+                android:paddingStart="@dimen/_25sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_25sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="@dimen/_11ssp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/signin_edit"
+                    android:drawableEnd="@drawable/lockbtn"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Select the city"
+                    android:paddingVertical="@dimen/_7sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/txtLooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Looking For"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/signin_edit"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edlooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/lockbtn"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Looking For"
+                    android:textColorHint="#888888"
+                    android:background="@null"
+                    android:paddingVertical="@dimen/_7sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/lookingchip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Relationship Status"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edrelation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/signin_edit"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/lockbtn"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Relationship Status"
+                    android:textColorHint="#888888"
+                    android:paddingVertical="@dimen/_7sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/relationchip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAdtionalFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:backgroundTint="@color/bottom"
+                android:drawableEnd="@drawable/animerrow"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingTop="@dimen/_3sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:text="Additional Filters"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp"
+                app:cornerRadius="@dimen/_6sdp" />
+
+           <!-- <LinearLayout
+                android:id="@+id/hobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:layout_marginBottom="@dimen/_9sdp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="Hobbies"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <com.hootsuite.nachos.NachoTextView
+                    android:id="@+id/et_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/signin_edit"
+                    android:fontFamily="@font/poppins_medium"
+                    android:paddingVertical="@dimen/_3sdp"
+                    android:paddingStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_16ssp" />
+
+                &lt;!&ndash;  <EditText
+                     android:id="@+id/edhobby"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/_32sdp"
+                     android:background="@drawable/signin_edit"
+                     android:fontFamily="@font/poppins"
+                     android:textColor="@color/black"
+                     app:layout_constraintTop_toTopOf="parent"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     app:layout_constraintStart_toStartOf="parent"/>&ndash;&gt;
+
+
+                &lt;!&ndash; <com.google.android.material.chip.ChipGroup
+                     android:id="@+id/chipGroup"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@color/transparent"
+                     android:visibility="gone"
+                     app:layout_constraintTop_toTopOf="@+id/edhobby"
+                     app:layout_constraintBottom_toBottomOf="@+id/edhobby"
+                     app:layout_constraintEnd_toEndOf="@+id/edhobby"
+                     app:layout_constraintStart_toStartOf="@+id/edhobby" />&ndash;&gt;
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyhobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"
+                    android:scrollbars="vertical"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_hobby" />
+
+            </LinearLayout>-->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyAddtional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:overScrollMode="never"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_addional_filter">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnApplyFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/_20sdp"
+                android:background="@drawable/accept_btn"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_20sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:text="Apply Filters"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

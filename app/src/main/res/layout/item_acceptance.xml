@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/dismiss"
+    android:background="@color/transparent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@mipmap/backimg" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/acceptance"
+        android:gravity="center"
+        android:layout_marginVertical="@dimen/_190sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/strtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private request send to Emma Berman "
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginTop="@dimen/_35sdp"
+            app:layout_constraintBottom_toTopOf="@+id/edmsg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constrent"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/edmsg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:hint="Type here.."
+            android:gravity="start"
+            app:layout_constraintTop_toBottomOf="@+id/strtxt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/acceptedit"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnyes"
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_95sdp"
+        android:backgroundTint="#1C716A"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        app:cornerRadius="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/constrent"
+        app:layout_constraintTop_toBottomOf="@+id/constrent"
+        app:layout_constraintEnd_toEndOf="@+id/constrent"
+        app:layout_constraintStart_toStartOf="@+id/constrent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

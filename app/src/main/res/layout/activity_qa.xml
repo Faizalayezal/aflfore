@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qabg"
+    tools:context=".QaActivity">
+
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/cons"
+        android:src="@mipmap/qaback"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="@dimen/_100sdp">
+
+
+        <LinearLayout
+            android:id="@+id/phase1"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/phase1"
+            android:elevation="@dimen/_30sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/phase2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase1"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/phase2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/phase2"
+            android:elevation="@dimen/_25sdp"
+            app:layout_constraintTop_toBottomOf="@+id/phase1"
+            app:layout_constraintBottom_toTopOf="@+id/phase3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase2"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/phase3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@drawable/phase3"
+            android:elevation="@dimen/_20sdp"
+            app:layout_constraintBottom_toTopOf="@+id/phase4"
+            app:layout_constraintTop_toBottomOf="@+id/phase2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase3"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:id="@+id/phase4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/phase4"
+            android:elevation="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phase3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase4"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_45sdp"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+   <!-- <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgphase1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/transparent"
+        android:src="@drawable/forevergif" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

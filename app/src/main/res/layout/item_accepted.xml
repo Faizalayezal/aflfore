@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:id="@+id/itemchatlist"
+    android:layout_width="match_parent"
+    android:elevation="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/clickCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:background="@drawable/acceptancechat">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_45sdp"
+            android:id="@+id/userimg"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_height="@dimen/_45sdp"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/_13ssp"
+                android:text="Luca"
+                android:id="@+id/userName"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/lastmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppins"
+                android:singleLine="true"
+                android:text="Hii ! Do you have a moments?"
+                android:textColor="@color/lastmsg"
+                android:textSize="@dimen/_10ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/msgtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Today"
+                android:textColor="@color/chatday"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/msgcount"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/yellow_circle"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_horizontal"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
