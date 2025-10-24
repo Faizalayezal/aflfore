@@ -1,0 +1,183 @@
+package com.foreverinlove.network.response
+
+
+data class DiscoverUserListResponse(
+    val status: Int?,
+    val message: String?,
+    val data: DiscoverTopData?,
+) : java.io.Serializable
+
+data class DiscoverTopData(
+    var remaining_likes_count: Int?,
+    var remaining_super_likes_count: Int?,
+    val users: List<DiscoverData>?,
+    var order: PlanDetailList?,
+    val is_limited: String?,
+    val is_order: String?,
+    val is_limited_profile_view: String?,
+    val minimum_age: Int?,
+    val maximum_age: Int?,
+    val params: DiscoverParams?,
+    val user_settings: UserSettingData?,
+) : java.io.Serializable
+
+data class UserSettingData(
+    val distance_unit: String?,
+    val distance_visible: Int?,
+) : java.io.Serializable
+
+data class DiscoverParams(
+    val min_age: String?,
+    val max_age: String?,
+    val latitude: String?,
+    val longitude: String?,
+    val page: String?,
+    val pageSize: String?,
+    var address: String?,
+    val education: String?,
+    val min_distance: String?,
+    val max_distance: String?,
+    val arts: String?,
+    val covid_vaccine: String?,
+    val dietary_lifestyle: String?,
+    val drink: String?,
+    val drugs: String?,
+    val first_date_ice_breaker: String?,
+    val horoscope: String?,
+    val interests: String?,
+    val language: String?,
+    val user_looking_for: String?,
+    val looking_for: String?,
+    val pets: String?,
+    val political_leaning: String?,
+    val relationship_status: String?,
+    val religion: String?,
+    val smoking: String?,
+    val min_height: String?,
+    val max_height: String?,
+    val hobbies: String?,
+) : java.io.Serializable
+
+data class DiscoverUsers(
+    val current_page: Int?,
+    val data: List<DiscoverData>?,
+    val first_page_url: String?,
+    val from: Int?,
+    val last_page: Int?,
+    val last_page_url: String?,
+    val next_page_url: String?,
+    val path: String?,
+    val per_page: String?,
+) : java.io.Serializable
+
+data class DiscoverData(
+    var id: Int?,
+    var first_name: String?,
+    var last_name: String?,
+    var dob: String?,
+    var age: String?,
+    var email: String?,
+    var status: String?,
+    var phone: String?,
+    var gender: String?,
+    var job_title: String?,
+    var login_otp: String?,
+    var google_id: String?,
+    var fb_id: String?,
+    var apple_id: String?,
+    var login_type: String?,
+    var otp_expird_time: String?,
+    var address: String?,
+    var latitude: String?,
+    var longitude: String?,
+    var profile_video: String?,
+    var lastseen: String?,
+    var fcm_token: String?,
+    var api_token: String?,
+    var device_type: String?,
+    var about: String?,
+    var email_verified_at: String?,
+    var email_verified: String?,
+    var email_verified_otp: String?,
+    var coins: String?,
+    var user_type: String?,
+    var height: String?,
+    var user_intrested_in: String?,
+    var hobbies: String?,
+    var created_at: String?,
+    var updated_at: String?,
+    var distance: String?,
+
+    var user_educations: DiscoverAdditional?,
+    var user_looking_for: List<DiscoverAdditional>?,
+    var user_dietary_lifestyle: List<DiscoverAdditional>?,
+    var user_pets: List<DiscoverAdditional>?,
+    var user_arts: List<DiscoverAdditional>?,
+    var user_language: List<DiscoverAdditional>?,
+    var user_interests: List<DiscoverAdditional>?,
+
+    var user_drink: DiscoverAdditional?,
+    var user_drugs: DiscoverAdditional?,
+    var user_horoscope: DiscoverAdditional?,
+    var user_religion: DiscoverAdditional?,
+    var user_political_leaning: DiscoverAdditional?,
+    var user_relationship_status: DiscoverAdditional?,
+    var user_life_style: DiscoverAdditional?,
+    var user_first_date_ice_breaker: DiscoverAdditional?,
+    var user_covid_vaccine: DiscoverAdditional?,
+    var user_smoking: DiscoverAdditional?,
+
+    val user_images: List<DiscoverImage?>?,
+    var calculatedDistance:String?
+) : java.io.Serializable
+
+data class DiscoverImage(
+    val id: Int?,
+    val user_id: String?,
+    val url: String?,
+) : java.io.Serializable
+
+data class DiscoverAdditional(
+    var question_id: String?,
+    var question_type: String?,
+    var title: String?,
+) : java.io.Serializable
+
+data class PlanDetailList(
+    val id: Int?,
+    val user_id: Int?,
+    val subscription_id: Int?,
+    val currency_code: String?,
+    var start_date: String?,
+    var end_date: String?,
+    var payment_status: String?,
+    var month: String?,
+    var status: String?,
+    var call_chat_time_limit: String?,
+    var like_per_day: Int?,
+    var plan_type: String?,
+    var created_at: String?,
+    var updated_at: String?,
+    var plan: PlanList?,
+) : java.io.Serializable
+
+data class PlanList(
+    val id: Int?,
+    var title: String?,
+    var description: String?,
+    var search_filters: String?,
+    val like_per_day: Int?,
+    val super_like_par_day: Int?,
+    val group_video_call_and_chat: String?,
+    val video_call_duration: String?,
+    val who_views_me: String?,
+    val private_chat_request: String?,
+   // val price: Int?,
+    val new_price: String?,
+    val currency_code: String?,
+    val month: Int?,
+    val plan_duration: Int?,
+    val plan_type: String?,
+    var created_at: String?,
+    var updated_at: String?,
+) : java.io.Serializable
