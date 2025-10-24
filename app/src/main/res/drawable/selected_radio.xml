@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center_vertical"
+        android:start="@dimen/_10sdp"
+        android:width="@dimen/_15sdp"
+        android:height="@dimen/_15sdp"
+        >
+
+
+        <shape android:shape="oval">
+            <solid android:color="@color/mnoyellow"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/reportborder"/>
+</layer-list>

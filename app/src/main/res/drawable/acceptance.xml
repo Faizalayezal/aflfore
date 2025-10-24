@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- Gray darkshadow. -->
+    <item android:left="@dimen/_3sdp" android:right="@dimen/_3sdp" android:top="@dimen/_15sdp">
+        <shape>
+            <solid android:color="#CACACA" />
+            <corners android:radius="@dimen/_13sdp" />
+        </shape>
+    </item>
+
+    <!-- Gray shadow. -->
+    <item android:left="@dimen/_2sdp" android:right="@dimen/_2sdp" android:top="@dimen/_22sdp">
+        <shape>
+            <solid android:color="#D4D4D4" />
+            <corners android:radius="@dimen/_13sdp" />
+        </shape>
+    </item>
+
+    <!-- White foreground. -->
+    <item android:top="@dimen/_28sdp">
+        <shape>
+            <solid android:color="#E2E2E2" />
+            <corners android:radius="@dimen/_13sdp" />
+        </shape>
+    </item>
+
+
+
+</layer-list>

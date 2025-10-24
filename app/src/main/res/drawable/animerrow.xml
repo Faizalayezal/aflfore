@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_pressed="true">
+        <layer-list>
+            <rotate android:drawable="@drawable/filtererrow"
+                android:fromDegrees="0"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:toDegrees="180" />
+        </layer-list>
+    </item>
+-->
+
+<!--
+    <item android:state_pressed="false">
+        <layer-list>
+            <rotate android:drawable="@drawable/filtererrow"
+                android:fromDegrees="180"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:toDegrees="0" />
+        </layer-list>
+    </item>
+-->
+    <item>
+        <rotate
+            android:drawable="@drawable/filtererrow"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="180" />
+    </item>
+</layer-list>
