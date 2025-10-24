@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "366052867227",
+    "firebase_url": "https://forever2-c9cef-default-rtdb.firebaseio.com",
+    "project_id": "forever2-c9cef",
+    "storage_bucket": "forever2-c9cef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366052867227:android:c251536dffeb67f1ce9a3e",
+        "android_client_info": {
+          "package_name": "com.foreverinlove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366052867227-i5h3mh8719o51492u749rq1c4f44qnnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDupwIIYzRk7taNSycw4iUFwPlRCoJUGRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366052867227-i5h3mh8719o51492u749rq1c4f44qnnv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366052867227-5mdf1kjosa2hnsj66utjpn44vfm1516k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foreverusLove.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
